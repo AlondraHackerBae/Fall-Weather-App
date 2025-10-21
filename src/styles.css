@@ -1,0 +1,22 @@
+body {
+  background-color: grey;
+  background-image: url("images/spooky-forest.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  color: white;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.weather-app {
+  background-color: rgb(23, 25, 29);
+  opacity: 0.8;
+  border-radius: 16px;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 40px;
+}

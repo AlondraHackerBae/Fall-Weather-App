@@ -3,37 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Fall Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Houston</h1>
-        <p>
-          Wednesday 12:00pm, Partly Cloudy <br />
-          Humidity: 50% Wind: 7mph
-        </p>
-      </div>
-      <div>🌤 85°F</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/AlondraHackerBae" target="_blank"
-        >Alondra Turner</a
-      >, is open-sourced on
-      <a
-        href="https://github.com/AlondraHackerBae?tab=repositories"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://fallweatherapp.netlify.app/" target="_blank">Netlify</a>.
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Houston</h1>
+          <p>
+            Wednesday 12:00pm, Partly Cloudy <br />
+            Humidity: 50% Wind: 7mph
+          </p>
+        </div>
+        <div>🌤 85°F</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/AlondraHackerBae" target="_blank"
+          >Alondra Turner</a
+        >, is open-sourced on
+        <a
+          href="https://github.com/AlondraHackerBae?tab=repositories"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://fallweatherapp.netlify.app/" target="_blank">Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
