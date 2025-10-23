@@ -2,7 +2,6 @@ function searchCity(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-form-input");
   let cityNameElement = document.querySelector("#city-name");
-  console.log(searchInputElement);
 
   cityNameElement.innerHTML = searchInputElement.value;
 }
