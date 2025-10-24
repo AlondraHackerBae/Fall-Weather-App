@@ -48,8 +48,8 @@ strong {
   justify-content: space-between;
 }
 .weather-icon {
-  font-size: 45px;
-  margin: -5px 5px 0px 0px;
+  height: 70px;
+  width: 70px;
 }
 .temperature {
   font-family: "Nosifer", sans-serif;
